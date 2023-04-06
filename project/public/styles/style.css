@@ -1,8 +1,11 @@
-@import "typography.css";
-@import "details.css";
-@import "login-register.css";
-@import "create-edit.css";
-@import "welcome.css";
-@import "all-cars.css";
-@import "navigation.css";
-@import "comments.css";
+@import "createPage.css";
+@import "CssTypography.css";
+@import "CssNavigation.css";
+@import "CssComments.css";
+@import "CssCars.css";
+@import "detailsPage.css";
+@import "homePage.css";
+@import "loginPage.css";
+
+
+

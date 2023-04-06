@@ -1,0 +1,50 @@
+
+
+
+h1,
+h2,
+h4,
+h5,
+h6 {
+    padding: 0.2em 1rem;
+}
+
+html {
+    font-family: Arial;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+p,
+div {
+    margin: 0 1em 0.5em 1em;
+}
+
+ol,
+ul {
+    margin: 0em 1rem;
+}
+
+li {
+    list-style-position: inside;
+}
+
+button {
+    font-weight: bold;
+    border: white;
+    border-radius: 10%;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0 auto;
+    box-sizing: inherit;
+}
+
+a {
+    margin: 5px;
+    font-weight: bold;
+    color: inherit; 
+    text-decoration: none;
+}

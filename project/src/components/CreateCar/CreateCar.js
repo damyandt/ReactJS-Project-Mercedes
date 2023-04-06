@@ -90,7 +90,7 @@ export const CreateCar = ({ onCreateCarSubmit }) => {
                         className="fw-normal mb-3 pb-3"
                         style={{ letterSpacing: "1px", fontSize: "40px" }}
                       >
-                        Post yuor benz!
+                        Post your benz!
                       </h5>
 
                       <label htmlFor="model">Model:</label>

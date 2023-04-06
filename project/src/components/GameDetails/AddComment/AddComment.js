@@ -9,18 +9,6 @@ export const AddComment = ({ onCommentSubmit }) => {
   );
 
   return (
-    // <article className="create-comment">
-    //   <label>Add new comment:</label>
-    //   <form className="form" onSubmit={onSubmit}>
-    //     <textarea
-    //       name="comment"
-    //       placeholder="Comment......"
-    //       value={values.comment}
-    //       onChange={changeHandler}
-    //     ></textarea>
-    //     <input className="btn submit" type="submit" value="Add Comment" />
-    //   </form>
-    // </article>
     <article className="create-comment">
       <div className="col-lg-4 col-md-5 col-sm-4 offset-md-1 offset-sm-1 col-12 mt-4">
 

@@ -1,0 +1,211 @@
+.sclass {
+  background: url("../images/sclass2.jpg");
+  height: 500px;
+  width: 930px;
+  margin: auto;
+  box-sizing: border-box;
+  box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+}
+
+.eclass {
+  background: url("../images/eeee.jpg");
+  height: 500px;
+  width: 930px;
+  margin: auto;
+  box-sizing: border-box;
+  box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+}
+
+.gclass {
+  background: url("../images/gwagon.jpg");
+  height: 500px;
+  width: 930px;
+  margin: auto;
+  box-sizing: border-box;
+  box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+}
+
+.clsclass {
+  background: url("../images/mercedes-cls-63-amg-s-tuning-mit-allem-big-breit-baerenstark-ein-cls-geht-in-die-vollen-15348.jpg");
+  height: 500px;
+  width: 930px;
+  margin: auto;
+  box-sizing: border-box;
+  box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+}
+
+.c-class {
+  background: url("../images/cClassDetails.jpg");
+  height: 500px;
+  width: 930px;
+  margin: auto;
+  box-sizing: border-box;
+  box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+}
+
+#car-details {
+  width: 1000px;
+}
+
+#car-details>h1 {
+  color: #fff;
+  font-family: "cursive";
+  font-size: 56px;
+  font-weight: 600;
+  text-align: center;
+}
+
+span:nth-child(1) {
+  animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(2) {
+  animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(3) {
+  animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(4) {
+  animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(5) {
+  animation: fade-in 0.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(6) {
+  animation: fade-in 0.8s 0.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(7) {
+  animation: fade-in 0.8s 0.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(8) {
+  animation: fade-in 0.8s 0.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(9) {
+  animation: fade-in 0.8s 0.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(10) {
+  animation: fade-in 0.8s 1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(11) {
+  animation: fade-in 0.8s 1.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(12) {
+  animation: fade-in 0.8s 1.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(13) {
+  animation: fade-in 0.8s 1.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(14) {
+  animation: fade-in 0.8s 1.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(15) {
+  animation: fade-in 0.8s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(16) {
+  animation: fade-in 0.8s 1.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(17) {
+  animation: fade-in 0.8s 1.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(18) {
+  animation: fade-in 0.8s 1.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+.info-section {
+  border-radius: 50px;
+  background-color: rgb(255, 255, 255);
+}
+
+.car-header {
+  padding: 25px;
+}
+
+
+.car_header>h4 {
+  color: #555;
+  font-size: 23px;
+  font-weight: 400;
+}
+
+.car-img {
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 220px;
+}
+
+.buttons {
+  padding-bottom: 30px;
+  text-align: right;
+  padding-right: 20px;
+}
+
+.button {
+  border-radius: 50px;
+  background-color: #e79130;
+  padding: 14px;
+  font-size: 19px;
+  color: rgb(255, 255, 255);
+}
+
+.button:hover {
+  background-color: #d83333;
+  color: white;
+}
+
+
+
+#class {
+  position: relative;
+  width: 1120px;
+  height: auto;
+  border-radius: 20px;
+  padding: 40px;
+  box-sizing: border-box;
+  background: #3e4443;
+  box-shadow: 0px 0px 32px 0px #49535e, -14px -14px 20px #191c21;
+}
+
+.heading {
+  margin: 0;
+  font-size: 70px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #0066ff, #f30808);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+ 
+#details {
+  text-align: center;
+  font-size: 45px;
+  color: #e97c22;
+  display: inline-block;
+  opacity: 0;
+  filter: blur(4px);
+  margin-left: 10px;
+} 
+
+
+
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}

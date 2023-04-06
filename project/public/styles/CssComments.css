@@ -1,0 +1,49 @@
+.create-comment>.form>textarea {
+    /* resize: none; */
+    /* width: 100px; */
+    /* height: 100px; */
+    /* margin-top: 22px; */
+    /* margin-bottom: 28px; */
+    /* padding: 5px; */
+}
+
+.details-comments {
+    display: table-cell;
+}
+
+.create-comment {
+    margin-top: 45px;
+    /* position: relative; */
+    text-align: center;
+    width: 495px;
+    /* height: auto; */
+    border-radius: 20%;
+    padding: 40px;
+    /* box-sizing: border-box; */
+    background: #eab07b;
+}
+
+.create-comment>label {
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.info-section>.details-comments li {
+    width: 350px;
+    display: inline-block;
+    /* position: static; */
+    margin: 20px auto 20px auto;
+    border-radius: 20%;
+    margin-left: 50px;
+    background: #efd448;
+    color: white;
+}
+
+.comment p {
+    padding: 16px;
+}
+
+

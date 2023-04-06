@@ -50,7 +50,7 @@ export const CarDetails = () => {
 
   return (
     <section id="car-details">
-      <h1 >Car Details</h1>
+      <h1 >CAR DETAILS</h1>
       <div className="info-section">
         <div className="car-header">
           <h1 style={{color: "orange"}}>Mercedes {car.model}</h1>

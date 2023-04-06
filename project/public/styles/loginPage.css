@@ -1,0 +1,37 @@
+.container {
+    padding: 30px;
+}
+
+label,
+input {
+    width: 100%;
+}
+
+label {
+    margin-top: 20px;
+}
+
+input[type="nickname"],
+input[type="password"],
+input[type="number"],
+input[type="email"] {
+    background: #ecf0f3;
+    padding: 35px;
+    height: 45px;
+    margin-top: 11px;
+    font-size: 24px;
+    border-radius: 50px;
+}
+
+.btn.submit {
+    background: #e79130;
+    border-radius: 35px;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.container {
+    text-align: left;
+    margin-top: 0px;
+}

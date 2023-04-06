@@ -1,0 +1,35 @@
+#welcome-world {
+  width: auto;
+  padding-right: 15px;
+  padding-top: 7em;
+  text-align: center;
+  padding-top: inherit
+}
+
+.welcome-message h2 {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: "Agency FB";
+}
+
+.welcome-message h3 {
+  color: #ffffff;
+  font-size: 400%;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Agency FB";
+}
+
+#home-page {
+  box-shadow: 0px 0px 40px 0px;
+}
+
+#home-page>h1 {
+  font-weight: 800;
+  font-size: 85px;
+  font-family: "cursive";
+  color: rgb(160, 90, 75);
+}
