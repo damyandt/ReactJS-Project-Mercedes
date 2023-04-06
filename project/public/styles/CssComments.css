@@ -1,25 +1,13 @@
-.create-comment>.form>textarea {
-    /* resize: none; */
-    /* width: 100px; */
-    /* height: 100px; */
-    /* margin-top: 22px; */
-    /* margin-bottom: 28px; */
-    /* padding: 5px; */
-}
-
 .details-comments {
     display: table-cell;
 }
 
 .create-comment {
     margin-top: 45px;
-    /* position: relative; */
     text-align: center;
     width: 495px;
-    /* height: auto; */
     border-radius: 20%;
     padding: 40px;
-    /* box-sizing: border-box; */
     background: #eab07b;
 }
 
@@ -34,7 +22,6 @@
 .info-section>.details-comments li {
     width: 350px;
     display: inline-block;
-    /* position: static; */
     margin: 20px auto 20px auto;
     border-radius: 20%;
     margin-left: 50px;

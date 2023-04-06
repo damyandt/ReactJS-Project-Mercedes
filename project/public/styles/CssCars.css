@@ -1,34 +1,23 @@
 #catalog-page {
-    /* background-color: transparent; */
-    /* box-shadow: 0px 0px 40px 0px; */
-    /* overflow: hidden; */
     border-radius: 10px;
     padding: 20px;
-    /* height: auto; */
     width: 1000px;
 }
 
 #catalog-page>h1 {
     color: #f5f1ee;
     font-family: "cursive";
-    /* font-size: 48px; */
     font-weight: 600;
     margin-top: 10px;
-    /* text-transform: uppercase; */
     text-align: center;
 }
 
 .allCars {
     background-color: #fff;
     border-radius: 10px;
-
     display: flex;
-    /* max-width: 100%; */
     margin: 25px;
-    /* overflow: hidden; */
-    /* width: 600px auto; */
     min-height: 200px;
-    /* height: auto; */
 }
 
 .allCars-info {
@@ -38,9 +27,6 @@
 }
 
 .allCars-info>img {
-    /* margin-top: -10px; */
-    /* border-radius: 50%; */
-    /* height: 150px; */
     position: absolute;
     top: 30px;
     right: 30px;
@@ -49,11 +35,6 @@
     width: 250px;
 }
 
-.allCars-info>h6 {
-    /* font-size: 20px;
-    font-weight: 750;
-    color: #161618; */
-}
 
 .allCars-info>h2 {
     font-size: 20px;
@@ -63,14 +44,9 @@
 
 .details-button {
     background-color: #efa75f;
-
     color: #fff;
-    /* font-size: 20px; */
     position: absolute;
-    /* bottom: 30px; */
     text-align: left;
-    /* letter-spacing: 1px; */
     padding: 10px;
-    /* margin-top: auto; */
     margin-left: 15px;
 }
