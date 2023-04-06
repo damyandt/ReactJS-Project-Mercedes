@@ -15,7 +15,7 @@ export const Header = () => {
         </Link>
       </div>
       <nav id="text">
-        <Link to="/catalog" style={{fontSize: "35px"}}>All posts</Link>
+        <Link to="/catalog" style={{fontSize: "25px"}}>All posts</Link>
         {isAuthenticated && (
           <div id="user">
             <span>{userEmail}</span>

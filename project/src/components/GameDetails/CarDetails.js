@@ -50,16 +50,17 @@ export const CarDetails = () => {
 
   return (
     <section id="car-details">
-      <h1>Car Details</h1>
+      <h1 >Car Details</h1>
       <div className="info-section">
         <div className="car-header">
+          <h1 style={{color: "orange"}}>Mercedes {car.model}</h1>
           <img className="car-img" src={car.imageUrl} />
-          <h1>Mercedes {car.model}</h1>
-          <span className="levels">Horsepower: {car.horsepower}</span>
-          <p className="type">Year: {car.year}</p>
-        </div>
 
-        <p className="text">{car.summary}</p>
+          <span >Horsepower: {car.horsepower}</span>
+          <p>Year: {car.year}</p>
+        </div>
+        <h3>Summury:</h3>
+        <p style={{paddingBottom: "80px"}}>{car.summary}</p>
 
         <div className="details-comments">
           <h2>Comments:</h2>

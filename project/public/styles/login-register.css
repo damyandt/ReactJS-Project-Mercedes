@@ -95,21 +95,21 @@ label[for="terms"]>input {
 }
 
 .btn.submit {
-    /* margin-top: 30px;
-    background: #778e9c;
-    height: 60px;
-    border-radius: 20px;
+    /* margin-top: 30px; */
+    background: #e79130;
+    /* height: 60px; */
+    border-radius: 35px;
     color: white;
-    font-size: 26px;
-    cursor: pointer;
-    font-weight: 900;
-    box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
-    transition: 0.5s; */
+    font-size: 25px;
+    /* cursor: pointer; */
+    font-weight: 700;
+    /* box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white; */
+    /* transition: 0.5s; */
 }
 
 .btn.submit:hover {
-    /* color: white; */
-    /* background-color: #8fa9b9; */
+     /* color: white; 
+     background-color: #8fa9b9;  */
 }
 
 .container {

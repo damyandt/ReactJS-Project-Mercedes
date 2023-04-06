@@ -69,7 +69,7 @@ export const Home = () => {
           />
           <div className="card-body">
             <h1 className="card-title" style={{fontSize: "25px"}}>Cls class</h1>
-            <p className="card-text" style={{"fontSize": "15px"}}>
+            <p className="card-text" style={{"fontSize": "15px", "padding-bottom": "9px"}}>
             For first time: 2004 year
             </p>
             <Link to="/cls-class" className="btn btn-primary">

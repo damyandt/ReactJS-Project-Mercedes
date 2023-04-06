@@ -1,5 +1,5 @@
 export const Footer = () => {
     return (
-        <div>All rights reserved &copy;</div>
+        <div style={{position: "absolute"}}>All rights reserved &copy;</div>
     );
 };
