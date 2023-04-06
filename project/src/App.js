@@ -19,6 +19,7 @@ import { Eclass } from "./components/AllClasses/Eclass/Eclass";
 import { Gclass } from "./components/AllClasses/Gclass/Gclass";
 import { Clsclass } from "./components/AllClasses/Clsclass/Clsclass";
 import { Cclass } from "./components/AllClasses/Cclass/Cclass";
+import { RouteGuard } from "./components/common/RouteGuard";
 
 
 function App() {
@@ -58,23 +59,21 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/login" element={<Login />} />
-            <Route path="/logout" element={<Logout />} />
             <Route path="/register" element={<Register />} />
+            <Route path="/catalog" element={<Catalog cars={cars} />} />
+            <Route path="/catalog/:carId" element={<CarDetails />} />
             <Route path="/s-class" element={<Sclass />} />
             <Route path="/e-class" element={<Eclass />} />
             <Route path="/g-class" element={<Gclass />} />
             <Route path="/cls-class" element={<Clsclass />} />
             <Route path="/c-class" element={<Cclass />} />
-            <Route
-              path="/create-car"
-              element={<CreateCar onCreateCarSubmit={onCreateCarSubmit} />}
-            />
-            <Route path="/catalog" element={<Catalog cars={cars} />} />
-            <Route path="/catalog/:carId" element={<CarDetails />} />
-            <Route
-              path="/catalog/:carId/edit"
-              element={<EditCar onCarEditSubmit={onCarEditSubmit} />}
-            />
+
+            <Route element={<RouteGuard />}>
+              <Route path="/catalog/:carId/edit" element={<EditCar onCarEditSubmit={onCarEditSubmit} />} />
+              <Route path="/create-car" element={<CreateCar onCreateCarSubmit={onCreateCarSubmit} />} />
+              <Route path="/logout" element={<Logout />} />
+            </Route>
+
           </Routes>
         </main>
         <Footer />
