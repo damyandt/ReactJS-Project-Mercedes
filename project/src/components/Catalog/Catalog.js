@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useCarContext } from "../../contexts/CarContext";
 import { CatalogItem } from "./CatalogItem/CatalogItem";
 
@@ -13,7 +14,14 @@ export const Catalog = () => {
         <CatalogItem key={x._id} {...x} />
       ))}
 
-      {cars.length === 0 && <h3 className="no-articles">No car posts...</h3>}
+      {cars.length === 0 &&
+        <>
+          <h3 style={{ color: "white", fontSize: "50px" }}>No car posts...</h3>
+          <h3 style={{ color: "white", fontSize: "35px" }}>Be the first one!</h3>
+          <Link class="btn btn-primary add" to="/create-car" role="button">
+          <h4 style={{color: "white", fontSize: "35px"}}>POST</h4>
+        </Link>
+        </>}
     </section>
   );
 };

@@ -32,7 +32,7 @@ export const Gclass = () => {
         </h1>
       </div>
       <div>
-        <Link class="btn btn-primary add" to="/" role="button">
+        <Link className="btn btn-primary add" to="/" role="button">
           <h4 id="heading">BACK</h4>
         </Link>
       </div>

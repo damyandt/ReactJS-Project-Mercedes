@@ -30,7 +30,7 @@ export const Cclass = () => {
         </h1>
       </div>
       <div>
-        <Link class="btn btn-primary add" to="/" role="button">
+        <Link className="btn btn-primary add" to="/" role="button">
           <h4>BACK</h4>
         </Link>
       </div>

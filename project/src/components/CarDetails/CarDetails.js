@@ -51,7 +51,6 @@ export const CarDetails = () => {
 
       deleteCar(car._id)
 
-      // TODO: delete from state
       navigate("/catalog");
     };
   }
@@ -76,7 +75,7 @@ export const CarDetails = () => {
           <h2>Comments:</h2>
           <ul>
             {car.comments &&
-              car.comments.map((x) => (
+              car.comments.map(x => (
                 <li key={x._id} className="comment">
                   <p>
                     {x.author.email} : {x.comment}

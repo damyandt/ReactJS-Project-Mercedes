@@ -10,17 +10,17 @@ export const Header = () => {
     <header>
       <div>
         <Link to="/">
-          <img src="./images/Mercedes-Logo.svg.png" width="80" 
-     height="80" />
+          <img src="./images/Mercedes-Logo.svg.png" width="80"
+            height="80" />
         </Link>
       </div>
       <nav id="text">
-        <Link to="/catalog" style={{fontSize: "25px"}}>All posts</Link>
+        <Link to="/catalog" style={{ fontSize: "25px" }}>All posts</Link>
         {isAuthenticated && (
           <div id="user">
-            <span>{userEmail}</span>
             <Link to="/create-car">Post car</Link>
             <Link to="/logout">Logout</Link>
+            <span style={{ fontSize: "25px"}}>{userEmail.split("@")[0]}</span>
           </div>
         )}
 
