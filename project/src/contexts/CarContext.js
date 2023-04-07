@@ -35,10 +35,15 @@ export const CarProvider = ({
         navigate(`/catalog/${values._id}`);
     };
 
+    const getCar = (carId) => {
+        return cars.find(car => car._id === carId);
+    }
+
     const contextValues = {
         cars,
         onCreateCarSubmit,
-        onCarEditSubmit
+        onCarEditSubmit,
+        getCar,
     }
 
     return (

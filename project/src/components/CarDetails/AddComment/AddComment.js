@@ -19,7 +19,7 @@ export const AddComment = ({ onCommentSubmit }) => {
               placeholder="Comment......"
               value={values.comment}
               onChange={changeHandler}
-              style={{ "background-color": "white", width: "300px" }}
+              style={{ "backgroundColor": "white", width: "300px" }}
             ></textarea>
           </div>
 

@@ -19,6 +19,7 @@ import { Gclass } from "./components/AllClasses/Gclass/Gclass";
 import { Clsclass } from "./components/AllClasses/Clsclass/Clsclass";
 import { Cclass } from "./components/AllClasses/Cclass/Cclass";
 import { RouteGuard } from "./components/common/RouteGuard";
+import { CarOwner } from "./components/common/CarOwner";
 
 
 function App() {
@@ -42,7 +43,7 @@ function App() {
               <Route path="/c-class" element={<Cclass />} />
 
               <Route element={<RouteGuard />}>
-                <Route path="/catalog/:carId/edit" element={<EditCar />} />
+                <Route path="/catalog/:carId/edit" element={<CarOwner> <EditCar /> </CarOwner>} />
                 <Route path="/create-car" element={<CreateCar />} />
                 <Route path="/logout" element={<Logout />} />
               </Route>
