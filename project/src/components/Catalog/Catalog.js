@@ -18,7 +18,7 @@ export const Catalog = () => {
         <>
           <h3 style={{ color: "white", fontSize: "50px" }}>No car posts...</h3>
           <h3 style={{ color: "white", fontSize: "35px" }}>Be the first one!</h3>
-          <Link class="btn btn-primary add" to="/create-car" role="button">
+          <Link className="btn btn-primary add" to="/create-car" role="button">
           <h4 style={{color: "white", fontSize: "35px"}}>POST</h4>
         </Link>
         </>}

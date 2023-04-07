@@ -17,8 +17,6 @@ export const CarProvider = ({
         });
     }, []);
 
-
-
     const onCreateCarSubmit = async (data) => {
         const newCar = await carService.create(data);
 
