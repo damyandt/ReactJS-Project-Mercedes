@@ -1,6 +1,10 @@
+import { useCarContext } from "../../contexts/CarContext";
 import { CatalogItem } from "./CatalogItem/CatalogItem";
 
-export const Catalog = ({ cars }) => {
+export const Catalog = () => {
+
+  const { cars } = useCarContext()
+
   return (
     <section id="catalog-page">
       <h1>All Posts</h1>

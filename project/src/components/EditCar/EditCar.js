@@ -1,11 +1,13 @@
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
+import { useCarContext } from "../../contexts/CarContext";
 
 import { useForm } from "../../hooks/useForm";
 import { useService } from "../../hooks/useService";
 import { carServiceFactory } from "../../services/carService";
 
-export const EditCar = ({ onCarEditSubmit }) => {
+export const EditCar = () => {
+  const { onCarEditSubmit } = useCarContext();
   const { carId } = useParams();
   const carService = useService(carServiceFactory);
   const { values, changeHandler, onSubmit, changeValues } = useForm(

@@ -1,6 +1,8 @@
+import { useCarContext } from "../../contexts/CarContext";
 import { useForm } from "../../hooks/useForm";
 
-export const CreateCar = ({ onCreateCarSubmit }) => {
+export const CreateCar = () => {
+  const { onCreateCarSubmit } = useCarContext();
   const { values, changeHandler, onSubmit } = useForm(
     {
       model: "",
