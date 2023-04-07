@@ -39,11 +39,16 @@ export const CarProvider = ({
         return cars.find(car => car._id === carId);
     }
 
+    const deleteCar = (carId) => {
+        setCars(state => state.filter(car => car._id !== carId));
+    }
+
     const contextValues = {
         cars,
         onCreateCarSubmit,
         onCarEditSubmit,
         getCar,
+        deleteCar
     }
 
     return (

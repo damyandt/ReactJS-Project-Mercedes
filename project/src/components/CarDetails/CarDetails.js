@@ -8,10 +8,12 @@ import { useAuthContext } from "../../contexts/AuthContext";
 
 import { AddComment } from "./AddComment/AddComment";
 import { carReducer } from "../../reducers/carReducer";
+import { useCarContext } from "../../contexts/CarContext";
 
 export const CarDetails = () => {
   const { carId } = useParams();
   const { userId, isAuthenticated, userEmail } = useAuthContext();
+  const { deleteCar } = useCarContext()
   const [car, dispach] = useReducer(carReducer, {});
   const carService = useService(carServiceFactory);
   const navigate = useNavigate();
@@ -41,26 +43,34 @@ export const CarDetails = () => {
   const isOwner = car._ownerId === userId;
 
   const onDeleteClick = async () => {
-    await carService.delete(car._id);
+    // eslint-disable-next-line no-restricted-globals
+    const res = confirm(`Are you sure you want to delete Mercedes ${car.model}?`);
 
-    // TODO: delete from state
+    if (res) {
+      await carService.delete(car._id);
 
-    navigate("/catalog");
-  };
+      deleteCar(car._id)
+
+      // TODO: delete from state
+      navigate("/catalog");
+    };
+  }
+
+
 
   return (
     <section id="car-details">
       <h1 >CAR DETAILS</h1>
       <div className="info-section">
         <div className="car-header">
-          <h1 style={{color: "orange"}}>Mercedes {car.model}</h1>
+          <h1 style={{ color: "orange" }}>Mercedes {car.model}</h1>
           <img className="car-img" src={car.imageUrl} />
 
           <span >Horsepower: {car.horsepower}</span>
           <p>Year: {car.year}</p>
         </div>
         <h3>Summury:</h3>
-        <p style={{paddingBottom: "80px"}}>{car.summary}</p>
+        <p style={{ paddingBottom: "80px" }}>{car.summary}</p>
 
         <div className="details-comments">
           <h2>Comments:</h2>
