@@ -78,7 +78,7 @@ export const CarDetails = () => {
               car.comments.map(x => (
                 <li key={x._id} className="comment">
                   <p>
-                    {x.author.email} : {x.comment}
+                    {(x.author.find(y => y._id === x._ownerId)).email} : {x.comment}
                   </p>
                 </li>
               ))}
