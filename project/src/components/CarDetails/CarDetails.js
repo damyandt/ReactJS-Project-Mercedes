@@ -53,8 +53,16 @@ export const CarDetails = () => {
 
       navigate("/catalog");
     };
-  }
 
+
+
+  }
+  const findOwner = (x) => {
+    if (x.author.email === undefined) {
+      return x.author.find(y => y._id === x._ownerId).email
+    }
+    return x.author.email
+  }
 
 
   return (
@@ -78,7 +86,7 @@ export const CarDetails = () => {
               car.comments.map(x => (
                 <li key={x._id} className="comment">
                   <p>
-                    {(x.author.find(y => y._id === x._ownerId)).email} : {x.comment}
+                    {findOwner(x)} : {x.comment}
                   </p>
                 </li>
               ))}
