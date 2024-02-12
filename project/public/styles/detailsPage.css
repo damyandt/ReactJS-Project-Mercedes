@@ -1,7 +1,8 @@
 .sclass {
   background: url("../images/sclass2.jpg");
-  height: 500px;
-  width: 930px;
+  height: 22em;
+  background-size: cover;
+  overflow: hidden;
   margin: auto;
   box-sizing: border-box;
   box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
@@ -9,8 +10,9 @@
 
 .eclass {
   background: url("../images/eeee.jpg");
-  height: 500px;
-  width: 930px;
+  height: 22em;
+  background-size: cover;
+  overflow: hidden;
   margin: auto;
   box-sizing: border-box;
   box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
@@ -18,8 +20,9 @@
 
 .gclass {
   background: url("../images/gwagon.jpg");
-  height: 500px;
-  width: 930px;
+  height: 22em;
+  background-size: cover;
+  overflow: hidden;
   margin: auto;
   box-sizing: border-box;
   box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
@@ -27,8 +30,9 @@
 
 .clsclass {
   background: url("../images/mercedes-cls-63-amg-s-tuning-mit-allem-big-breit-baerenstark-ein-cls-geht-in-die-vollen-15348.jpg");
-  height: 500px;
-  width: 930px;
+  height: 22em;
+  background-size: cover;
+  overflow: hidden;
   margin: auto;
   box-sizing: border-box;
   box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
@@ -36,8 +40,9 @@
 
 .c-class {
   background: url("../images/cClassDetails.jpg");
-  height: 500px;
-  width: 930px;
+  height: 22em;
+  background-size: cover;
+  overflow: hidden;
   margin: auto;
   box-sizing: border-box;
   box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
@@ -126,6 +131,7 @@ span:nth-child(17) {
 span:nth-child(18) {
   animation: fade-in 0.8s 1.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
+
 .info-section {
   border-radius: 50px;
   background-color: rgb(255, 255, 255);
@@ -171,36 +177,36 @@ span:nth-child(18) {
 
 
 #class {
-  position: relative;
-  width: 1120px;
+  /* position: relative; */
+  margin-top: 2em;
+  width: 80%;
   height: auto;
   border-radius: 20px;
-  padding: 40px;
-  box-sizing: border-box;
+  padding: 2em;
+  /* box-sizing: border-box; */
   background: #3e4443;
   box-shadow: 0px 0px 32px 0px #49535e, -14px -14px 20px #191c21;
 }
 
 .heading {
   margin: 0;
-  font-size: 70px;
+  font-size: 3em;
   font-weight: 600;
   background-image: linear-gradient(to left, #0066ff, #f30808);
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
 }
- 
+
 #details {
   text-align: center;
-  font-size: 45px;
+  font-size: 0.7em;
   color: #e97c22;
   display: inline-block;
   opacity: 0;
   filter: blur(4px);
   margin-left: 10px;
-} 
-
+}
 
 
 @keyframes fade-in {
@@ -208,4 +214,16 @@ span:nth-child(18) {
     opacity: 1;
     filter: blur(0);
   }
+}
+
+.textAndPhoto {
+  display: flex;
+}
+
+#text1 {
+  width: 50%;
+}
+
+#text {
+  line-height: 0.8em;
 }
