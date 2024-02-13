@@ -30,7 +30,7 @@ export const Clsclass = () => {
           </h1>
         </div>
       </div>
-      <div>
+      <div className="bacBtn">
         <Link className="btn btn-primary add" to="/" role="button">
           <h4>BACK</h4>
         </Link>

@@ -33,7 +33,7 @@ export const Sclass = () => {
           </h1>
         </div>
       </div>
-      <div>
+      <div className="bacBtn">
         <Link className="btn btn-primary add" to="/" role="button">
           <h4 id="heading">BACK</h4>
         </Link>
