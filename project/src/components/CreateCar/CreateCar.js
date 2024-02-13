@@ -19,14 +19,8 @@ export const CreateCar = () => {
 
       <div className="cardContainer">
         <form id="create" method="post" onSubmit={onSubmit}>
-          <div className="d-flex align-items-center mb-3 pb-1"></div>
 
-          <h5
-            className="fw-normal mb-3 pb-3"
-            style={{ letterSpacing: "1px", fontSize: "40px" }}
-          >
-            Post your benz!
-          </h5>
+          <h5 className="fw-normal mb-3 pb-3">Post your benz!</h5>
 
           <label htmlFor="model">Model:</label>
           <input

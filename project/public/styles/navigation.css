@@ -43,14 +43,22 @@ footer {
 
 nav a {
   margin: 0 0.5em;
-}
-
-#user,
-#guest {
-  font-size: 25px;
-  margin: 0;
+  font-size: 1.5em;
+  font-weight: 100;
+  align-self: last baseline;
 }
 
 header img {
   padding: 0.7em;
+}
+
+#user svg {
+  width: 1.5em;
+  margin-bottom: -0.2em;
+  fill: #fff;
+}
+
+#user {
+  display: flex;
+  align-items: flex-start;
 }

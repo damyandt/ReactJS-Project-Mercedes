@@ -26,7 +26,6 @@ li {
 button {
     font-weight: bold;
     border: white;
-    border-radius: 10%;
 }
 
 *,
@@ -37,7 +36,6 @@ button {
 }
 
 a {
-    margin: 5px;
     font-weight: bold;
     color: inherit;
     text-decoration: none;

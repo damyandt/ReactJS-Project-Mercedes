@@ -49,16 +49,18 @@
 }
 
 #car-details {
-  width: 1000px;
+  width: 80%;
+  height: auto;
 }
 
 #car-details>h1 {
   color: #fff;
   font-family: "cursive";
-  font-size: 56px;
+  font-size: 3em;
   font-weight: 600;
   text-align: center;
 }
+
 
 span:nth-child(1) {
   animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
@@ -137,9 +139,11 @@ span:nth-child(18) {
   background-color: rgb(255, 255, 255);
 }
 
-.car-header {
-  padding: 25px;
+.info-section>h2 {
+  padding-left: 1em;
+  font-size: 3em;
 }
+
 
 
 .car_header>h4 {
@@ -149,10 +153,10 @@ span:nth-child(18) {
 }
 
 .car-img {
-  float: left;
+
   margin-left: 20px;
   margin-right: 20px;
-  height: 220px;
+  height: 250px;
 }
 
 .buttons {
@@ -177,13 +181,11 @@ span:nth-child(18) {
 
 
 #class {
-  /* position: relative; */
   margin-top: 2em;
   width: 80%;
   height: auto;
   border-radius: 20px;
   padding: 2em;
-  /* box-sizing: border-box; */
   background: #3e4443;
   box-shadow: 0px 0px 32px 0px #49535e, -14px -14px 20px #191c21;
 }
@@ -226,4 +228,40 @@ span:nth-child(18) {
 
 #text {
   line-height: 0.8em;
+}
+
+.detailsBtn {
+  padding: 1em;
+  border-radius: 2em;
+  background-color: #e79130;
+  color: #fff;
+  margin: 0.5em 3.5em;
+  width: 6em;
+}
+
+.btnHolder {
+  display: flex;
+  flex-direction: row;
+  left: 0;
+}
+
+.car-header {
+  padding: 1em;
+  display: flex;
+
+}
+
+.infoCar {
+  margin: 0;
+}
+
+.photoAndBtns {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.infoCar svg {
+  width: 1.5em;
+  margin-right: 0.5em;
 }

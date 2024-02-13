@@ -9,11 +9,11 @@ export const CatalogItem = ({
     return (
         <div className="allCars">
             <div className="allCars-info">
-                <img src={imageUrl} />
                 <h2>Mercedes {model}</h2>
                 <h6>Year: {year}</h6>
                 <Link to={`/catalog/${_id}`} className="details-button">Details</Link>
             </div>
+            <img src={imageUrl} />
         </div>
     );
 }

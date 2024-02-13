@@ -26,13 +26,9 @@
     width: 100%;
 }
 
-.allCars-info>img {
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    float: right;
-    padding: 5px;
-    width: 250px;
+.allCars img {
+    padding: 1em;
+    max-width: 20em;
 }
 
 
@@ -50,4 +46,3 @@
     padding: 10px;
     margin-left: 15px;
 }
-
